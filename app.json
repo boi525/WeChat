@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/stars/stars",
+    "pages/saying/saying",
+    "pages/article/article"
+  ],
+  "tabBar": {
+    "position":"top",
+    "selectedColor":"#3A6989",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/stars/stars",
+        "text": "星座"
+      },
+      {
+        "pagePath": "pages/saying/saying",
+        "text": "箴言"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#3A6989",
+    "navigationBarTitleText": "凌晨飞雨",
+    "navigationBarTextStyle":"white"
+  }
+}

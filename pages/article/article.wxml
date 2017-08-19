@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="stars">
+    <block wx:for="{{stars}}" wx:for-item="star" wx:key="*this">
+      <text class="star-item">{{index + 1}}. {{star}}</text>
+    </block>
+  </view>
+</view>

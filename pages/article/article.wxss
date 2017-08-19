@@ -1,0 +1,13 @@
+/**stars.wxss**/
+.container{
+  padding:0;
+}
+.stars{
+  margin-top: 24px;
+  font-size: 14px;
+  color: #999;
+}
+.star-item{
+  display: block;
+  line-height: 26px;
+}
